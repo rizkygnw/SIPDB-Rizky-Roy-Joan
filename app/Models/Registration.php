@@ -2,14 +2,15 @@
 
 namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+
 use Illuminate\Database\Eloquent\Model;
 
-class Documents extends Model
+class Registration extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'student_id', 'document_type', 'file_path', 'created_at'
+        'student_id', 'registration_date', 'status', 'created_at', 'updated_at'
     ];
 
     public function student()
