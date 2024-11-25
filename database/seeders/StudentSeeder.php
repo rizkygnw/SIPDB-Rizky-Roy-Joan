@@ -14,7 +14,7 @@ class StudentSeeder extends Seeder
     public function run(): void
     {
         Student::create([
-            'user_id' => 2, // Assuming this user ID exists
+            'user_id' => 2,
             'name' => 'Siswa 1',
             'address' => 'Jl. Contoh No. 1',
             'birth_date' => '2000-01-01',

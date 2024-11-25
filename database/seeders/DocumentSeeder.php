@@ -14,7 +14,7 @@ class DocumentSeeder extends Seeder
     public function run(): void
     {
         Documents::create([
-            'student_id' => 1, // Assuming this student ID exists
+            'student_id' => 1,
             'document_type' => 'KTP',
             'file_path' => 'documents/ktp_siswa1.pdf',
         ]);
